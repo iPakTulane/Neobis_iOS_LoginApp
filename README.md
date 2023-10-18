@@ -1,16 +1,16 @@
 # Neobis_iOS_LoginApp
 A single-view app displaying login functionality
 
-##Overview
+## Overview
 The Neobis iOS LoginApp is a simple, yet powerful single-view application designed to demonstrate the implementation of a login functionality. This project serves as a foundation for integrating user authentication into your iOS applications. It's a great starting point for anyone looking to build apps that require user login and authentication.
 
-##How to use the app
+## How to use the app
 - Initially, a user will be presented with a login screen for authentication.
 - The user needs to enter her credentials (name and password) into respective fields.
 - After entering credentials, the user taps the "Log In" button to submit her login information.
 - If login information is correct, the user will be granted access to her account or the associated services. Otherwise, she will receive an error message indicating that her credentials are incorrect.
 
-##Getting Started
+## Getting Started
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
 1. Clone this repository to your local machine.
@@ -20,10 +20,10 @@ These instructions will help you get a copy of the project up and running on you
 
 3. Build and run the project on the iOS simulator or a physical device.
 
-##Prerequisites
+## Prerequisites
 Xcode needs to be installed on your local machine.
 
-##Built With
+## Built With
 - Swift 
 - Xcode 
 - Autolayout
@@ -33,10 +33,10 @@ Xcode needs to be installed on your local machine.
 - UIButton
 - UITextField
 
-##Authors
+## Authors
 - [Igor Pak](https://github.com/iPakTulane/)
 - [Neobis Club](https://neobis.club/) 
 
-##Acknowledgments
+## Acknowledgments
 Special thanks to the Neobis Club team that inspired me for this project.
 
