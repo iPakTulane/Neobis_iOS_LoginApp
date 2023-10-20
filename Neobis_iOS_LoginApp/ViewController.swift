@@ -9,23 +9,33 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
-    @IBOutlet weak var envelopeImageView: UIImageView!
-    
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.darkGray
-        usernameTextField.text = "Username"
-        passwordTextField.text = "Password"
+        
+        usernameTextField.layer.cornerRadius = usernameTextField.frame.size.height / 2
+        usernameTextField.clipsToBounds = true
+        
+        passwordTextField.layer.cornerRadius = passwordTextField.frame.size.height / 2
+        passwordTextField.clipsToBounds = true
+        
+        signInButton.layer.cornerRadius = signInButton.frame.size.height / 2
+        signInButton.clipsToBounds = true
+        
     }
     
     @IBAction func signInButtonTapped(_ sender: Any) {
-//        let username = usernameTextField.text
-//        let password = passwordTextField.text
+        if let username = usernameTextField.text, !username.isEmpty,
+           let password = passwordTextField.text, !password.isEmpty {
+            print("Username: \(username)")
+            print("Password: \(password)")
+        }
     }
-    
 }
+
+
 

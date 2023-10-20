@@ -32,7 +32,7 @@
                                         </constraints>
                                         <imageReference key="image" image="envelope.open" catalog="system" symbolScale="large"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8wN-VI-bEQ">
+                                    <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8wN-VI-bEQ">
                                         <rect key="frame" x="60" y="320" width="270" height="50"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -43,7 +43,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-6L-EDR">
+                                    <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-6L-EDR">
                                         <rect key="frame" x="60" y="400" width="270" height="50"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -119,8 +119,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="envelopeImageView" destination="kks-JR-aEq" id="iCU-XO-Xaa"/>
                         <outlet property="passwordTextField" destination="AW8-6L-EDR" id="oIE-le-214"/>
+                        <outlet property="signInButton" destination="QbT-Hc-yMC" id="0Vr-Rx-WJc"/>
                         <outlet property="usernameTextField" destination="8wN-VI-bEQ" id="ULK-v4-fvb"/>
                     </connections>
                 </viewController>
