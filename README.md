@@ -1,8 +1,8 @@
 # Neobis_iOS_LoginApp
 A single-view app displaying login functionality
 
-![email-sign-in-smartphone-page-template-mobile-app-interface-design-layout-mail-login-sign-up-screen-flat-ui-application-user-registration-phone-display-with-mailbox-password-username-vector copy](https://github.com/iPakTulane/Neobis_iOS_LoginApp/assets/117035210/f3a3880e-a750-4bc7-ada8-1f74f795ad9d)
-
+# Design
+<img width="200" height="400" align="center" alt="login" src="https://github.com/iPakTulane/Neobis_iOS_LoginApp/assets/117035210/c712b250-d2b7-468c-8c47-a97120625e53"/>
 
 ## Overview
 The Neobis iOS LoginApp is a simple, yet powerful single-view application designed to demonstrate the implementation of a login functionality. This project serves as a foundation for integrating user authentication into your iOS applications. It's a great starting point for anyone looking to build apps that require user login and authentication.
@@ -26,7 +26,7 @@ These instructions will help you get a copy of the project up and running on you
 ## Prerequisites
 Xcode needs to be installed on your local machine.
 
-## Built With
+## Frameworks 
 - Swift 
 - Xcode 
 - Autolayout
